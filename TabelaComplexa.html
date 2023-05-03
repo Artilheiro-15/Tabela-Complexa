@@ -1,0 +1,79 @@
+<h1>
+    <pre>     Tabela complexa</pre>
+</h1>
+
+=============================================&gt; <br>
+<p>
+<pre>Agora vamos criar uma tabela bem mais complexa agente vai ver 
+como trabalha com uns atributos a mais e uma sensabilidade 
+para tabelas mais complexas</pre>
+</p>
+
+<!--
+
+EXEMPLO
+    2 Lojas
+    Quantos produtos forao produzidos, quantos 
+    vendidos e agrupado por nome dos produtos
+-->
+
+<p>Bom vamos pensar no caso de uso igual coloquei no exemplo
+    ele se basea no seguinte:
+</p>
+=============================================&gt; <br>
+
+<table>
+
+    <caption>Produzidos x vendidos por loja </caption>
+
+    <colgroup>
+
+        <col>
+        <col span="2" style="background-color: rgba(6, 193, 59, 0.967);">
+        <col span="2" style="background-color: rgb(13, 255, 0);">
+
+    </colgroup>
+
+    <thead>
+
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Gardem brow</th>
+            <th colspan="2" scope="colgroup">Greem Sativa</th>
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Sativa: </th>
+            <td> 50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Medicinal:</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+
+
+    </tbody>
+
+</table>
+<BR>
+<br>
+<pre>TAG DIFERENTE ULTILIZADAS: rowspan, colspan, colgroup, span="2", scope="colgroup, 
+    scope="col"</pre>
